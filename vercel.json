@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/ringg-api/:path*",
+      "destination": "https://prod-api.ringg.ai/ca/api/v0/:path*"
+    },
+    {
+      "source": "/elevenlabs-api/:path*",
+      "destination": "https://api.elevenlabs.io/v1/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
