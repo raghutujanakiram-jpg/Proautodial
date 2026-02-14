@@ -1,0 +1,9 @@
+{
+  "name": "ProAutoDial AI Suite",
+  "description": "An enterprise-grade auto-dialing platform enhanced with the full power of Gemini AI for voice conversations, creative content generation, and intelligent analysis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
